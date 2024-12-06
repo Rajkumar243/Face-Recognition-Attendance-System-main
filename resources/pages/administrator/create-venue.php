@@ -81,7 +81,7 @@ if (isset($_POST["addVenue"])) {
                             <option value="free">Free</option>
                             <option value="scheduled">Scheduled</option>
                         </select>
-                        <button id="addClass1" class="add show-form"><i class="ri-add-line"></i>Add lecture room</button>
+                        <button id="addClass1" class="add show-form"><i class="ri-add-line"></i>Add Work room</button>
                     </div>
                 </div>
                 <div class="rooms--cards">
@@ -132,8 +132,8 @@ if (isset($_POST["addVenue"])) {
             <?php showMessage() ?>
             <div class="table-container">
                 <div class="title" id="addClass2">
-                    <h2 class="section--title">Lecture Rooms</h2>
-                    <button class="add show-form"><i class="ri-add-line"></i>Add Class</button>
+                    <h2 class="section--title">Manager Rooms</h2>
+                    <button class="add show-form"><i class="ri-add-line"></i>Add Empolyee Rooms</button>
                 </div>
 
                 <div class="table">

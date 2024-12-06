@@ -76,8 +76,8 @@ if (isset($_POST["addLecture"])) {
             <?php showMessage() ?>
             <div class="table-container">
                 <div class="title" id="showButton">
-                    <h2 class="section--title">Lectures</h2>
-                    <button class="add"><i class="ri-add-line"></i>Add lecture</button>
+                    <h2 class="section--title">Managers</h2>
+                    <button class="add"><i class="ri-add-line"></i>Add Managers</button>
                 </div>
                 <div class="table">
                     <table>

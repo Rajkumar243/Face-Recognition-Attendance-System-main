@@ -92,7 +92,7 @@ if (isset($_POST['addStudent'])) {
 
                 <div class="title" id="showButton">
                     <h2 class="section--title">Students</h2>
-                    <button class="add"><i class="ri-add-line"></i>Add Student</button>
+                    <button class="add"><i class="ri-add-line"></i>Add Empolyee</button>
                 </div>
 
                 <div class="table">
@@ -147,7 +147,7 @@ if (isset($_POST['addStudent'])) {
                     <div>
                         <div>
                             <input type="text" name="firstName" placeholder="First Name">
-                            <input type="text" name="lastName" " placeholder=" Last Name">
+                            <input type="text" name="lastName"  placeholder=" Last Name">
                             <input type="email" name="email" placeholder="Email Address">
                             <input type="text" required id="registrationNumber" name="registrationNumber" placeholder="Registration Number"> <br>
                             <p id="error" style="color: red; display: none;">Invalid characters in registration number.</p> 
@@ -162,7 +162,7 @@ if (isset($_POST['addStudent'])) {
                             </select> <br />
 
                             <select required name="course">
-                                <option value="" selected>Select Course</option>
+                                <option value="" selected>Select Work Projects</option>
                                 <?php
                                 $courseNames = getCourseNames();
                                 foreach ($courseNames as $course) {

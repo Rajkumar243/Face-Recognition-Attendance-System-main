@@ -51,7 +51,7 @@ if (!empty($unitCode)) {
         <div class="main--content">
             <form class="lecture-options" id="selectForm">
                 <select required name="course" id="courseSelect" onChange="updateTable()">
-                    <option value="" selected>Select Course</option>
+                    <option value="" selected>Select Works Projects</option>
                     <?php
                     $courseNames = getCourseNames();
                     foreach ($courseNames as $course) {
@@ -74,7 +74,7 @@ if (!empty($unitCode)) {
 
             <div class="table-container">
                 <div class="title">
-                    <h2 class="section--title">Students List</h2>
+                    <h2 class="section--title">Employee List</h2>
                 </div>
                 <div class="table attendance-table" id="attendaceTable">
                     <table>

@@ -6,7 +6,7 @@
             <tr>
                 <th>Registration No</th>
                 <th>Name</th>
-                <th>Course</th>
+                <th>Work Projects</th>
                 <th>Unit</th>
                 <th>Venue</th>
                 <th>Attendance</th>

@@ -32,7 +32,7 @@
 
                         <div class="card--data">
                             <div class="card--content">
-                                <h5 class="card--title">Registered Students</h5>
+                                <h5 class="card--title">Registered Empolyee</h5>
                                 <h1><?php total_rows('tblstudents') ?></h1>
                             </div>
                             <i class="ri-user-2-line card--icon--lg"></i>
@@ -55,7 +55,7 @@
 
                         <div class="card--data">
                             <div class="card--content">
-                                <h5 class="card--title">Registered Lectures</h5>
+                                <h5 class="card--title">Registered Managers</h5>
                                 <h1><?php total_rows('tbllecture') ?></h1>
                             </div>
                             <i class="ri-user-line card--icon--lg"></i>
@@ -68,8 +68,8 @@
             <div class="table-container">
                 <a href="manage-lecture" style="text-decoration:none;">
                     <div class="title">
-                        <h2 class="section--title">Lectures</h2>
-                        <button class="add"><i class="ri-add-line"></i>Add lecture</button>
+                        <h2 class="section--title">Managers</h2>
+                        <button class="add"><i class="ri-add-line"></i>Add Managers</button>
                     </div>
                 </a>
                 <div class="table">
@@ -79,7 +79,7 @@
                                 <th>Name</th>
                                 <th>Email Address</th>
                                 <th>Phone No</th>
-                                <th>Faculty</th>
+                                <th>Projects</th>
                                 <th>Date Registered</th>
                                 <th>Settings</th>
                             </tr>
@@ -116,8 +116,8 @@
             <div class="table-container">
                 <a href="manage-students" style="text-decoration:none;">
                     <div class="title">
-                        <h2 class="section--title">Students</h2>
-                        <button class="add"><i class="ri-add-line"></i>Add Student</button>
+                        <h2 class="section--title">Empolyee</h2>
+                        <button class="add"><i class="ri-add-line"></i>Add Empolyee</button>
                     </div>
                 </a>
                 <div class="table">
@@ -126,7 +126,7 @@
                             <tr>
                                 <th>Registration No</th>
                                 <th>Name</th>
-                                <th>Faculty</th>
+                                <th>Project</th>
                                 <th>Course</th>
                                 <th>Email</th>
                                 <th>Settings</th>
@@ -162,7 +162,7 @@
             <div class="table-container">
                 <a href="create-venue" style="text-decoration:none;">
                     <div class="title">
-                        <h2 class="section--title">Lecture Rooms</h2>
+                        <h2 class="section--title">Managers Rooms</h2>
                         <button class="add"><i class="ri-add-line"></i>Add room</button>
                     </div>
                 </a>
@@ -206,8 +206,8 @@
             <div class="table-container">
                 <a href="manage-course" style="text-decoration:none;">
                     <div class="title">
-                        <h2 class="section--title">Courses</h2>
-                        <button class="add"><i class="ri-add-line"></i>Add Course</button>
+                        <h2 class="section--title">Work Projects</h2>
+                        <button class="add"><i class="ri-add-line"></i>Add Projects</button>
                     </div>
                 </a>
                 <div class="table">
@@ -217,7 +217,7 @@
                                 <th>Name</th>
                                 <th>Faculty</th>
                                 <th>Total Units</th>
-                                <th>Total Students</th>
+                                <th>Total Empolyee</th>
                                 <th>Date Created</th>
                                 <th>Action</th>
                             </tr>

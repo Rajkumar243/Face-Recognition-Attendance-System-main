@@ -124,8 +124,8 @@ if (isset($_POST["addFaculty"])) {
 
                         <div class="card--data">
                             <div class="card--content">
-                                <button class="add"><i class="ri-add-line"></i>Add Course</button>
-                                <h1><?php total_rows('tblcourse') ?> Courses</h1>
+                                <button class="add"><i class="ri-add-line"></i>Add WorkProjects</button>
+                                <h1><?php total_rows('tblcourse') ?> WorkProjects</h1>
                             </div>
                             <i class="ri-user-2-line card--icon--lg"></i>
                         </div>
@@ -160,7 +160,7 @@ if (isset($_POST["addFaculty"])) {
             <?php showMessage() ?>
             <div class="table-container">
                 <div class="title">
-                    <h2 class="section--title">Course</h2>
+                    <h2 class="section--title">WorkProjects</h2>
                 </div>
                 </a>
                 <div class="table">
@@ -170,7 +170,7 @@ if (isset($_POST["addFaculty"])) {
                                 <th>Name</th>
                                 <th>Faculty</th>
                                 <th>Total Units</th>
-                                <th>Total Students</th>
+                                <th>Total Empolyee</th>
                                 <th>Date Created</th>
                                 <th>Action</th>
                             </tr>
@@ -225,8 +225,8 @@ if (isset($_POST["addFaculty"])) {
                             <tr>
                                 <th>Unit Code</th>
                                 <th>Name</th>
-                                <th>Course</th>
-                                <th>Total Student</th>
+                                <th>WorkProjects</th>
+                                <th>Total Empolyee</th>
                                 <th>Date Created</th>
                                 <th>Action</th>
                             </tr>
@@ -276,9 +276,9 @@ if (isset($_POST["addFaculty"])) {
                             <tr>
                                 <th>Code</th>
                                 <th>Name</th>
-                                <th>Total Courses</th>
-                                <th>Total Students</th>
-                                <th>Total Lectures</th>
+                                <th>Total WorkProjects</th>
+                                <th>Total Empolyee</th>
+                                <th>Total Managers</th>
                                 <th>Date Created</th>
                             </tr>
                         </thead>
@@ -377,7 +377,7 @@ if (isset($_POST["addFaculty"])) {
                     ?>
                 </select>
                 <select required name="course">
-                    <option value="" selected>Select Course</option>
+                    <option value="" selected>Select WorkProjects</option>
                     <?php
                     $courseNames = getCourseNames();
                     foreach ($courseNames as $course) {

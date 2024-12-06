@@ -64,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <p style="font:80px; font-weight:400; color:blue; text-align:center; padding-top:2px;">Please select course, unit, and venue first. Before Launching Facial Recognition</p>
             <form class="lecture-options" id="selectForm">
                 <select required name="course" id="courseSelect" onChange="updateTable()">
-                    <option value="" selected>Select Course</option>
+                    <option value="" selected>Select Work</option>
                     <?php
                     $courseNames = getCourseNames();
                     foreach ($courseNames as $course) {

@@ -16,7 +16,7 @@
         <li>
             <a href="view-students">
                 <span class="icon icon-1"><i class="ri-user-line"></i></span>
-                <span class="sidebar--item">Students</span>
+                <span class="sidebar--item">Empolyees</span>
             </a>
         </li>
         <li>
