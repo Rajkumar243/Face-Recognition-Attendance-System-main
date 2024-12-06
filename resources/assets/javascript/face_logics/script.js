@@ -155,6 +155,7 @@ function updateOtherElements() {
           label: result,
         });
         drawBox.draw(canvas);
+       
       });
     }, 100);
   });
@@ -173,6 +174,8 @@ function sendAttendanceDataToServer() {
       const attendanceStatus = row.cells[5].innerText.trim();
 
       attendanceData.push({ studentID, course, unit, attendanceStatus });
+
+      
     });
 
   const xhr = new XMLHttpRequest();

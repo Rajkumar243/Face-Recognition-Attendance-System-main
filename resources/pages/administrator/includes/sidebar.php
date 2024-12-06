@@ -9,7 +9,7 @@
                 <li>
                     <a href="manage-course">
                         <span class="icon icon-1"><i class="ri-file-text-line"></i></span>
-                        <span class="sidebar--item">Manage Courses</span>
+                        <span class="sidebar--item">Manage WorkProjects</span>
                     </a>
                 </li>
                 <li>
@@ -21,13 +21,13 @@
                 <li>
                     <a href="manage-lecture">
                         <span class="icon icon-1"><i class="ri-user-line"></i></span>
-                        <span class="sidebar--item">manage lectures</span>
+                        <span class="sidebar--item">manage Projectmanagers</span>
                     </a>
                 </li>
                 <li>
                     <a href="manage-students">
                         <span class="icon icon-1"><i class="ri-user-line"></i></span>
-                        <span class="sidebar--item">Manage Students</span>
+                        <span class="sidebar--item">Manage Employers</span>
                     </a>
                 </li>
                 

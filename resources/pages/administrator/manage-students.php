@@ -91,7 +91,7 @@ if (isset($_POST['addStudent'])) {
             <div class="table-container">
 
                 <div class="title" id="showButton">
-                    <h2 class="section--title">Students</h2>
+                    <h2 class="section--title">Empolyee</h2>
                     <button class="add"><i class="ri-add-line"></i>Add Empolyee</button>
                 </div>
 
@@ -102,7 +102,7 @@ if (isset($_POST['addStudent'])) {
                                 <th>Registration No</th>
                                 <th>Name</th>
                                 <th>Faculty</th>
-                                <th>Course</th>
+                                <th>Project Code</th>
                                 <th>Email</th>
                                 <th>Settings</th>
                             </tr>

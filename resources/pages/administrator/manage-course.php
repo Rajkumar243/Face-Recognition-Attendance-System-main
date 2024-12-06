@@ -328,15 +328,15 @@ if (isset($_POST["addFaculty"])) {
             <form method="POST" action="" name="addCourse" enctype="multipart/form-data">
                 <div style="display:flex; justify-content:space-around;">
                     <div class="form-title">
-                        <p>Add Course</p>
+                        <p>Add Projects</p>
                     </div>
                     <div>
                         <span class="close">&times;</span>
                     </div>
                 </div>
 
-                <input type="text" name="courseName" placeholder="Course Name" required>
-                <input type="text" name="courseCode" placeholder="Course Code" required>
+                <input type="text" name="courseName" placeholder="Project Name" required>
+                <input type="text" name="courseCode" placeholder="Project Code" required>
 
 
                 <select required name="faculty">
@@ -368,7 +368,7 @@ if (isset($_POST["addFaculty"])) {
                 <input type="text" name="unitCode" placeholder="Unit Code" required>
 
                 <select required name="lecture">
-                    <option value="" selected>Assign Lecture</option>
+                    <option value="" selected>Assign Managers</option>
                     <?php
                     $lectureNames = getLectureNames();
                     foreach ($lectureNames as $lecture) {
